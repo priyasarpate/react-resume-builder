@@ -1,0 +1,12 @@
+.form-style{
+    width: 50%;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.back-button{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-column-gap: 5em;
+}

@@ -80,7 +80,7 @@
   img {
     border: 0;
     max-width: 100%;
-    margin-left: 100%;
+    margin-left: 20%;
     vertical-align: middle;
     display: inline-block;
     margin-top: 0%;
@@ -95,7 +95,7 @@
   
   @media screen and (max-width: 768px) {
     .home__hero-text-wrapper {
-      padding-bottom: 65px;
+      padding-bottom: 0px;
     }
   
     .col {

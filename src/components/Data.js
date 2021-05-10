@@ -1,7 +1,7 @@
 export const homeObjOne = {
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    lightBg: true,
+    lightText: false ,
+    lightTextDesc: false,
     topLine: 'The resume you deserve',
     headline: ' Let us manage your resume ',
     description:

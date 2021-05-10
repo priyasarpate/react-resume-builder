@@ -1,5 +1,6 @@
 import React from 'react';
 import './HeroSection.css';
+import './Home.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
@@ -15,11 +16,13 @@ function HeroSection({
   alt,
   imgStart
 }) {
+
+
   return (
     <>
+    <div className='main-div'>
       <div
-        className={lightBg ? 'home__hero-section' : 'home__hero-section darkBg'}
-      >
+        className={lightBg ? 'home__hero-section' : 'home__hero-section darkBg'}>
         <div className='container'>
           <div
             className='row home__hero-row'
@@ -43,11 +46,13 @@ function HeroSection({
                 >
                   {description}
                 </p>
-                <Link to='/sign-up'>
-                  <Button buttonSize='btn--wide' buttonColor='blue'>
-                    {buttonLabel}
+               
+                  <Link to='/'>
+              <Button buttonSize='btn--wide' buttonColor='blue'>
+                      {buttonLabel}
                   </Button>
-                </Link>
+                  </Link>
+              
               </div>
             </div>
             <div className='col'>
@@ -57,6 +62,7 @@ function HeroSection({
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   );
